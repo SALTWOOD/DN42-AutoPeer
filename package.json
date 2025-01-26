@@ -1,0 +1,33 @@
+{
+  "name": "dn42-autopeer",
+  "version": "1.0.0",
+  "description": "Dn42 Auto Peer",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --enable-source-maps dist/test.js",
+    "build": "rimraf dist && tsc",
+    "start": "node --enable-source-maps dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SALTWOOD/DN42-AutoPeer.git"
+  },
+  "keywords": [
+    "dn42",
+    "auto",
+    "peer",
+    "auto-peer",
+    "network",
+    "website"
+  ],
+  "author": "SALTWOOD",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/SALTWOOD/DN42-AutoPeer/issues"
+  },
+  "homepage": "https://github.com/SALTWOOD/DN42-AutoPeer#readme",
+  "dependencies": {
+    "rimraf": "^6.0.1"
+  }
+}
