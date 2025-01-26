@@ -1,1 +1,4 @@
-// TODO: 还没开始写
+import { Config } from "~/Config.js";
+
+const config = Config.instance;
+

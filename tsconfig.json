@@ -1,4 +1,5 @@
 {
+  "extends": ["@tsconfig/node22"],
   "compilerOptions": {
     "sourceMap": true,
     "experimentalDecorators": true,
@@ -7,7 +8,11 @@
     "outDir": "dist",
     "skipLibCheck": true,
     "allowJs": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "~/*": ["./src/*"]
+    }
   },
   "exclude": [
     "node_modules",
